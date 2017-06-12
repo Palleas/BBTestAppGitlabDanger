@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
 
-gem 'danger', ">= 5.0"
+gem 'danger', :git => "https://github.com/christopherstott/danger.git"
 gem 'gitlab', "~> 4.0"
