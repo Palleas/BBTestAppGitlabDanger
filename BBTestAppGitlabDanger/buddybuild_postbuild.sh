@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -z ${BUDDYBUILD_PULL_REQUEST+x} ]
+if [ -z "$BUDDYBUILD_PULL_REQUEST" ]
 then
     cd ..
     bundle install
