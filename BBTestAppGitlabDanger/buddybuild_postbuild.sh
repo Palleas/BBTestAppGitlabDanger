@@ -5,5 +5,5 @@ if [ "${BUDDYBUILD_PULL_REQUEST:-}" ]; then
     echo "Running danger"
     cd ..
     bundle install
-    bundle exec danger
+    bundle exec danger --fail-on-errors=true
 fi
